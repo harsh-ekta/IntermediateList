@@ -54,6 +54,8 @@
                                 @foreach ($tasks as $task)
                                     <tr>
                                         <td class="table-text"><div>{{ $task->name }}</div></td>
+                                        <td class="table-text"><div>{{ $task->name }}</div></td>
+                                        <td class="table-text"><div>{{ $task->created_at}}</div></td>
 
                                         <!-- Task Delete Button -->
                                         <td>
